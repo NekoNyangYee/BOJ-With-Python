@@ -1,5 +1,4 @@
 n =  map(int, input().split())
 
-powArr = [i**2 for i in n]
 
-print(powArr)
+print(sum([i**2 for i in n]) % 10)

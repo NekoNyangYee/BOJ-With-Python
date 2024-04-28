@@ -1,7 +1,10 @@
-T = 13
+n = int(input())
 
-n = ['but', 'i', 'wont', 'hesitate', 'no', 'more', 'no', 'more', 'it', 'cannot', 'wait', 'im', 'yours']
+words = [str(input()) for i in range(n)]
 
-for i in range(T):
-    n.sort(key=len)
-    print(n)
+words = list(set(words))
+words.sort()
+words.sort(key=len)
+
+for i in words:
+    print(i)

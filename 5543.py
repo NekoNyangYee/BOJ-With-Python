@@ -1,8 +1,11 @@
-num_input = 5
-
-inputs = [800, 700, 900, 198, 300]
-
-first_inputs = inputs[:3]
-second_inputs = inputs[3:]
-
-print(min(first_inputs) + min(second_inputs) - 50)
+burger = []
+drink = []
+for i in range(0, 3):
+    a = int(input())
+    burger.append(a)
+ 
+for i in range(0, 2):
+    b = int(input())
+    drink.append(b)
+ 
+print(min(burger)+min(drink)-50)

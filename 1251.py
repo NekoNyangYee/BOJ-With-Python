@@ -1,4 +1,4 @@
-str = 'mobitel'
+str = input()
 
 inputs = []
 

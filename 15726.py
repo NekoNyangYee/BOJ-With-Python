@@ -1,3 +1,8 @@
-a, b, c = [32, 16, 8].split()
+a, b, c = 32, 16, 8
 
-print(int(a * b / c))
+d = a * b / c
+e = a / b * c
+if(d > e):
+    print(int(d))
+else:
+    print(int(e))

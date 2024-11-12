@@ -1,7 +1,7 @@
 from functools import reduce
 
-n = 25
-m = 7000000000000000000000000
+n = int(input())
+m = int(input())
 
 result = 0
 

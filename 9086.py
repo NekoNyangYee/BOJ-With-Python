@@ -1,7 +1,5 @@
-t = 3
+x = int(input())
 
-n = 'ACDKJFOWIEGHE'
-
-len = len(n)
-
-print(n[:1], n[len])
+for i in range(x):
+    a = str(input())
+    print(a[0]+a[-1])
